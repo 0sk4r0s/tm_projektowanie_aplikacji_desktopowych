@@ -20,13 +20,20 @@ namespace WpfApp2
     /// </summary>
     public partial class MainWindow : Window
     {
-
+        public string VLogin { get; set; }
+        public string VPassword { get; set; }
         public MainWindow()
         {
 
 
             InitializeComponent();
-       
+            DataContext = this;
+
+
+        }
+        private void Btn_login(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Twój Login to: " + this.VLogin);
         }
 
     }
