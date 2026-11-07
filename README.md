@@ -1,4 +1,4 @@
-# Materiały do przedmiotu Projektowanie Aplikacji Desktopowych
+# Projektowanie Aplikacji Desktopowych - Materiały do przedmiotu 
 
 prowadzący - inż. Mateusz Lewicki
 
